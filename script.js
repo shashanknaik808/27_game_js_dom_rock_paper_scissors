@@ -14,5 +14,8 @@ optionImages.forEach((image, index) => {
         optionImages.forEach((image2, index2) => {
             index !== index2 && image2.classList.remove("active");
         });
+
+        let imageSrc = e.target.querySelector("img").src;
+        userResult.src = imageSrc;
     });
 });
