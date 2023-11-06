@@ -38,6 +38,17 @@ body {
     }
 }
 
+.container.start .cpu_result {
+    transform-origin: right;
+    animation: cpuShake 0.7s ease infinite;
+}
+
+@keyframes cpuShake {
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
 .result_images img {
     width: 100px;
 }
