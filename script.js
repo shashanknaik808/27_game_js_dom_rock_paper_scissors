@@ -17,5 +17,8 @@ optionImages.forEach((image, index) => {
 
         let imageSrc = e.target.querySelector("img").src;
         userResult.src = imageSrc;
+
+        let randomNumber = Math.floor(Math.random() * 3);
+        console.log(randomNumber);
     });
 });
