@@ -28,6 +28,18 @@ optionImages.forEach((image, index) => {
 
         let userValue = ["R", "P", "S"][index];
 
+        let outcomes = {
+            RR: "Draw",
+            RP: "Cpu",
+            RS: "User",
+            PP: "Draw",
+            PR: "User",
+            PS: "Cpu",
+            SS: "Draw",
+            SR: "Cpu",
+            SP: "User",
+        };
+
         let outComeValue = outcomes[userValue + cpuValue];
     });
 });
