@@ -72,6 +72,10 @@ body {
     width: 50px;
 }
 
+.container.start .option_images {
+    pointer-events: none;
+}
+
 .option_images {
     display: flex;
     align-items: center;
