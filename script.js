@@ -27,5 +27,7 @@ optionImages.forEach((image, index) => {
         let cpuValue = ["R", "P", "S"][randomNumber];
 
         let userValue = ["R", "P", "S"][index];
+
+        let outComeValue = outcomes[userValue + cpuValue];
     });
 });
