@@ -23,5 +23,9 @@ optionImages.forEach((image, index) => {
         let cpuImages = ["images/rock.png", "images/paper.png", "images/scissors.png"];
 
         cpuResult.src = cpuImages[randomNumber];
+
+        let cpuValue = ["R", "P", "S"][randomNumber];
+
+        let userValue = ["R", "P", "S"][index];
     });
 });
