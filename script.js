@@ -19,6 +19,9 @@ optionImages.forEach((image, index) => {
         userResult.src = imageSrc;
 
         let randomNumber = Math.floor(Math.random() * 3);
-        console.log(randomNumber);
+
+        let cpuImages = ["images/rock.png", "images/paper.png", "images/scissors.png"];
+
+        cpuResult.src = cpuImages[randomNumber];
     });
 });
